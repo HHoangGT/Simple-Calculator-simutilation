@@ -13,6 +13,9 @@
 	background-color: #080202;
 	border-radius: 1em;
 	font-family: "Orbitron", sans-serif;
+	text-align: right;
+	color: #ecf8f9;
+	font-size: 20px;
 }
 
 input[type="button"] {
