@@ -15,32 +15,32 @@
 	<body>
 		<table class="calculator">
 			<tr>
-				<td colspan="3" class="display-box">123+456</td>
-				<td><input type="button" value="C" /></td>
+				<td colspan="3" class="display-box" id="result"></td>
+				<td><input type="button" onclick="clearScreen()" value="C" /></td>
 			</tr>
 			<tr>
-				<td><input type="button" name="" id="" value="1" /></td>
-				<td><input type="button" name="" id="" value="2" /></td>
-				<td><input type="button" name="" id="" value="3" /></td>
-				<td><input type="button" name="" id="" value="/" /></td>
+				<td><input type="button" onclick="display('1')" value="1" /></td>
+				<td><input type="button" onclick="display('2')" value="2" /></td>
+				<td><input type="button" onclick="display('3')" value="3" /></td>
+				<td><input type="button" onclick="display('/')" value="/" /></td>
 			</tr>
 			<tr>
-				<td><input type="button" name="" id="" value="4" /></td>
-				<td><input type="button" name="" id="" value="5" /></td>
-				<td><input type="button" name="" id="" value="6" /></td>
-				<td><input type="button" name="" id="" value="-" /></td>
+				<td><input type="button" onclick="display('4')" value="4" /></td>
+				<td><input type="button" onclick="display('5')" value="5" /></td>
+				<td><input type="button" onclick="display('6')" value="6" /></td>
+				<td><input type="button" onclick="display('-')" value="-" /></td>
 			</tr>
 			<tr>
-				<td><input type="button" name="" id="" value="7" /></td>
-				<td><input type="button" name="" id="" value="8" /></td>
-				<td><input type="button" name="" id="" value="9" /></td>
-				<td><input type="button" name="" id="" value="+" /></td>
+				<td><input type="button" onclick="display('7')" value="7" /></td>
+				<td><input type="button" onclick="display('8')" value="8" /></td>
+				<td><input type="button" onclick="display('9')" value="9" /></td>
+				<td><input type="button" onclick="display('+')" value="+" /></td>
 			</tr>
 			<tr>
-				<td><input type="button" name="" id="" value="." /></td>
-				<td><input type="button" name="" id="" value="0" /></td>
-				<td><input type="button" name="" id="" value="=" /></td>
-				<td><input type="button" name="" id="" value="*" /></td>
+				<td><input type="button" onclick="display('.')" value="." /></td>
+				<td><input type="button" onclick="display('0')" value="0" /></td>
+				<td><input type="button" onclick="calculate()" value="=" /></td>
+				<td><input type="button" onclick="display('*')" value="*" /></td>
 			</tr>
 		</table>
 

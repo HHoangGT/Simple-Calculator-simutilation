@@ -1,3 +1,7 @@
+body {
+	background-color: #e9edc9;
+}
+
 .calculator {
 	height: 500px;
 	width: 400px;
@@ -14,8 +18,9 @@
 	border-radius: 1em;
 	font-family: "Orbitron", sans-serif;
 	text-align: right;
-	color: #ecf8f9;
-	font-size: 20px;
+	color: #b9f3e4;
+	font-size: 25px;
+	padding-right: 15px;
 }
 
 input[type="button"] {
